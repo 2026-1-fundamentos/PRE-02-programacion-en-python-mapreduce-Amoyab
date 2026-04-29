@@ -71,7 +71,6 @@ for key, value in pairs_sequence:
     else:
         result.append((key, value))
 
-'''
 # Crea la carpeta files/output
 if os.path.exists("files/output/"):
     for file in glob.glob(f"files/output/*"):
@@ -92,4 +91,4 @@ with open("files/output/_SUCCESS", "w", encoding="utf-8") as f:
 
 # El experimento finaliza aquí.
 end_time = time.time()
-print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")'''
+print(f"Tiempo de ejecución: {end_time - start_time:.2f} segundos")
